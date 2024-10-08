@@ -1,0 +1,49 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.cover-page {
+    height: 100%;
+    background: url("images/pixelcut-export\ \(2\).jpeg") no-repeat center center/cover; /* Background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: lightblue;
+}
+
+.cover-content {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cover-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cover-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.continue-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: darkblue; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+    background-color: #210681; 
+}
